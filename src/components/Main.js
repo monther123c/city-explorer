@@ -19,7 +19,7 @@ class Main extends react.Component {
     e.preventDefault();
 
     try {
-      const myKey = "pk.52ffa2b140346333af8917296b40c4cb";
+      const myKey = "pk.e361b71a28d6878ed3fa5f4e00a6e20f";
       const city = e.target.city.value;
       const link = `https://us1.locationiq.com/v1/search?key=${myKey}&q=${city}&format=json`;
       let Mydata = await axios.get(link);
